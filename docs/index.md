@@ -1,10 +1,6 @@
-# Obsidian Notes
- testing use
+Welcome to my memex
 
-## Hello World!
-
-The `index.md` in the `/docs` folder is the homepage you see here.
-
-The folders in `/docs` appear as the main sections on the navigation bar.
-
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+this memex is plsit up into 3 sections which are listed on the sidebar
+source notes
+lecture notes
+atomic notes
