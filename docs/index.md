@@ -1,6 +1,5 @@
 # Obsidian Notes
-
-Publish your public notes with MkDocs
+ testing use
 
 ## Hello World!
 
