@@ -1,0 +1,1256 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="Features/LaTeX%20Math%20Support/" rel="next"/>
+<link href="assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.1.2" name="generator"/>
+<title>obsidian-mkdocs template</title>
+<link href="assets/stylesheets/main.7bf56d0a.min.css" rel="stylesheet"/>
+<link href="assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="pink" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#reference">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="obsidian-mkdocs template" class="md-header__button md-logo" data-md-component="logo" href="." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            obsidian-mkdocs template
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="pink" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="blue" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="pink" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="obsidian-mkdocs template" class="md-nav__button md-logo" data-md-component="logo" href="." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    obsidian-mkdocs template
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href=".">
+        Home
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_1">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_1">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_1">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_2">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_2">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_2">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_3">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_3">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_3">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_4">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_4">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_4">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#citational-information">
+    Citational Information
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#-a-cipher-a-transformation-from-plaintext-according-to-some-transformation-dooley-5-6-small-fixed-number-of-substitution-elements">
+    -   A cipher: a transformation from plaintext according to some transformation (Dooley, 5-6); ‘small fixed number of substitution elements’
+  </a>
+<nav aria-label="-   A cipher: a transformation from plaintext according to some transformation (Dooley, 5-6); ‘small fixed number of substitution elements’" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_5">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_5">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_5">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_6">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_6">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_6">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_7">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_7">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_7">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_8">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_8">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_8">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_9">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_9">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_9">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#citational-information_1">
+    Citational Information
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Features
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Features
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="Features/LaTeX%20Math%20Support/">
+        LaTeX Math Support
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="Features/Mermaid%20Diagrams/">
+        Mermaid diagrams
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="Features/Text%20Formatting/">
+        Text Formatting
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Topic 1
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Topic 1
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="Topic%201/Note%201/">
+        Note 1
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="Topic%201/Note%202/">
+        Note 2
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_1">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_1">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_1">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_2">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_2">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_2">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_3">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_3">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_3">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_4">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_4">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_4">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#citational-information">
+    Citational Information
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#-a-cipher-a-transformation-from-plaintext-according-to-some-transformation-dooley-5-6-small-fixed-number-of-substitution-elements">
+    -   A cipher: a transformation from plaintext according to some transformation (Dooley, 5-6); ‘small fixed number of substitution elements’
+  </a>
+<nav aria-label="-   A cipher: a transformation from plaintext according to some transformation (Dooley, 5-6); ‘small fixed number of substitution elements’" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_5">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_5">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_5">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_6">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_6">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_6">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_7">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_7">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_7">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_8">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_8">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_8">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reference_9">
+    Reference
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#summary-key-take-aways_9">
+    Summary &amp; Key Take Aways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#links-thoughts_9">
+    Links / Thoughts
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#citational-information_1">
+    Citational Information
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>Home</h1>
+<p>Welcome to my memex</p>
+<p>this memex is split up into 3 sections: source notes; lecture notes; atomic notes</p>
+<p>SOURCE NOTES</p>
+<p>Title: <strong>two centuries after the foundation of electrophysiology, Trends in Neurosciences,</strong>
+type: Article</p>
+<h3 id="reference">Reference<a class="headerlink" href="#reference" title="Permanent link">¶</a></h3>
+<p>**</p>
+<p>Marco Piccolino, Luigi Galvani and animal electricity: two centuries after the foundation of electrophysiology, Trends in Neurosciences, Volume 20, Issue 10, 1997, Pages 443-448, ISSN 0166-2236, https://doi.org/10.1016/S0166-2236(97)01101-6.(https://www.sciencedirect.com/science/article/pii/S0166223697011016)</p>
+<p>**</p>
+<hr/>
+<h3 id="summary-key-take-aways">Summary &amp; Key Take Aways<a class="headerlink" href="#summary-key-take-aways" title="Permanent link">¶</a></h3>
+<p>**</p>
+<ul>
+<li>Galvani is famous for his experiments on frogs.</li>
+<li>The investigation of electricity   </li>
+<li>Laid the foundation of electricity research</li>
+<li>electrophysiology </li>
+<li>This research led to eventual creation of the electric battery</li>
+<li>Galvani concluded that there was intrinsic electricity in the frog</li>
+<li>He prepared a frog with metallic hooks and exposed it to electricity. He did this first by using electric machines (Leyden jars, Franklin's magic squares). He eventually placed a frog on a railing that connected to a rod which was struck by lightning.</li>
+<li>This created a physical reaction in the frog. (contractions)</li>
+<li>Volta admired Galvani…    </li>
+<li>Until his own research contradicted the findings of Galvani</li>
+<li>Although Voltas experiments proved much Galvani’s wrong, he would have never make these new findings if it wasn’t for the groundwork done by Galvani </li>
+<li>Volta and Galvani continued to produce research that further extended the general knowledge of the subject.</li>
+<li>With this, Volta created the first electrical battery.   </li>
+<li>volta referred to the electrical battery as an ‘artificial electrical organ’</li>
+<li>My interest in this article lies in the evolution of science, not in the science itself.</li>
+<li>In a way, these experiments laid the groundwork for computers. </li>
+<li>Everything digital, began with electricity. </li>
+<li>The studies of Electricity kickstarter everything we see to be normal today.
+**</li>
+</ul>
+<hr/>
+<h3 id="links-thoughts">Links / Thoughts<a class="headerlink" href="#links-thoughts" title="Permanent link">¶</a></h3>
+<p>Without ground work discoveries, evoultion could never take place. This is not lnly true in the context of this article, it is true everywhere. This is essentially the ground work for the internet. If electricity was never researched, then the internet wold never exist. 
+- the evolution of the internet is a theory itself in this sense</p>
+<p>Title: "We may all soon be 'first-class men'":
+type: Article</p>
+<h3 id="reference_1">Reference<a class="headerlink" href="#reference_1" title="Permanent link">¶</a></h3>
+<p><strong>
+"We may all soon be 'first-class men'": Gender and Skill in Canada's early twentieth century urban telegraph industry An article of the journal Labour/Le Travailleur Volume 27, 1991, p. 97–125 <a href="https://www.erudit.org/en/journals/llt/1991-v27-llt_27/llt27art03/">https://www.erudit.org/en/journals/llt/1991-v27-llt_27/llt27art03/</a>
+</strong></p>
+<hr/>
+<h3 id="summary-key-take-aways_1">Summary &amp; Key Take Aways<a class="headerlink" href="#summary-key-take-aways_1" title="Permanent link">¶</a></h3>
+<p><strong>
+-   Telegraph offices in the early twentieth century employed both women and men as telegraph operators
+-   This makes telegraphy an interesting case to study  <br/>
+-   It was not common for men and women to work together
+-   *links between gender and skill
+-   The telegraph industry was based on the Morse electric telegraph
+-   First successful use in 1843
+-   “A wire linked two sets of instruments, forming an electrical circuit. One set of instruments might be in Montreal, the other in Winnipeg, linked by a wire string, pole by pole, across hundreds of miles”
+-   Two parts
+-   “Key”: hand operated lever that opened and closed the circuit. Send short bursts of current through the wire.  <br/>
+-   “Sounder”: electrically operated lever that reacted from the currents sent by the “key”
+-   Clicking noises were made that sent messages to the operator in morse code.
+-   Gender stereotypes were very relevant in this time
+-   Women were believed to have less stamina, lower wage entitlements, short working careers, short patience with the public…etc
+-   In short, women were seen as less competent’
+-   This industry involved branches where men and women might work together
+-   For example, a press circuit 
+-   Even with this evidence that women could do the same work as men, the meanings of gender at the time still prevailed.
+-   Men still received higher wages and assumed superior status
+-   Morse telegraphy eventually became “mens” work
+</strong></p>
+<hr/>
+<h3 id="links-thoughts_1">Links / Thoughts<a class="headerlink" href="#links-thoughts_1" title="Permanent link">¶</a></h3>
+<p>Even though women proved that they were capable of performing to the same standard as men, they were forced into the gender roles of the time.  </p>
+<p>Title: Digital government transformation and internet portals: The co-evolution of technology, organizations, and institutions, Government Information Quarterly,
+type: Article</p>
+<h3 id="reference_2">Reference<a class="headerlink" href="#reference_2" title="Permanent link">¶</a></h3>
+<p><strong>
+Luis F. Luna-Reyes, J. Ramon Gil-Garcia, Digital government transformation and internet portals: The co-evolution of technology, organizations, and institutions, Government Information Quarterly, Volume 31, Issue 4, 2014,Pages 545-555,ISSN 0740-624X,
+<a href="https://doi.org/10.1016/j.giq.2014.08.001">https://doi.org/10.1016/j.giq.2014.08.001</a>.(<a href="https://www.sciencedirect.com/science/article/pii/S0740624X14001257">https://www.sciencedirect.com/science/article/pii/S0740624X14001257</a>)</strong>
+**</p>
+<hr/>
+<h3 id="summary-key-take-aways_2">Summary &amp; Key Take Aways<a class="headerlink" href="#summary-key-take-aways_2" title="Permanent link">¶</a></h3>
+<p><strong>
+-   It is possible for information technologies to promote government transformation
+-   Understood in 2 different ways:
+-   As a transformation of internal processes  <br/>
+-   As a transformation of the relationships between governments and other social and political actors (institutional transformation)
+-   *theory of the co-evolution of technology, organizational networks, and institutional arrangements in the transformation of government.
+-   What are the key variables and processes that facilitate government transformation through information technologies, such as government portals?
+-   It is clear that the government portal is meant to satisfy the people (citizens,businesses, etc)
+-   This guides the way government portals are transformed
+</strong></p>
+<hr/>
+<h3 id="links-thoughts_2">Links / Thoughts<a class="headerlink" href="#links-thoughts_2" title="Permanent link">¶</a></h3>
+<p>The internet has become accepted by society. This is made clear as governments use portals in order to satisfy users/citizens. This relates to the Frankenstein article (source 5):
+- people were not fond of the monster because the idea was new
+- the internet was exactly the same. However over time it became accepted as the norm.</p>
+<p>Title: "needle lodestone telegraphy"
+type: Article</p>
+<h3 id="reference_3">Reference<a class="headerlink" href="#reference_3" title="Permanent link">¶</a></h3>
+<p><strong>
+"needle lodestone telegraphy" -&gt; Nalbach, A. (2001). [Review of The Victorian Internet: The Remarkable Story of the Telegraph and the Nineteenth Century’s On-Line Pioneers, by T. Standage]. Carlyle Studies Annual, 20, 108–112. <a href="http://www.jstor.org/stable/44945806">http://www.jstor.org/stable/44945806</a>
+</strong></p>
+<hr/>
+<h3 id="summary-key-take-aways_3">Summary &amp; Key Take Aways<a class="headerlink" href="#summary-key-take-aways_3" title="Permanent link">¶</a></h3>
+<p><strong>
+-   The first internet was the global electric telegraph network established between 1835 and 1914.
+-   The telegraph and the “victorian internet” have similarities’
+-   Both operated by a series of codes relayed across interconnected networks
+-   *Both brought lots of attention; hype. Skepticism, bewilderment….
+-   The telegraph, and its evolution lead to the creation of the internet. The evolution of the telegraph had many different stages.
+-   Did not jump form the first model of the telegraph to the internet
+-   Governments were the first to support the creation of new communications systems
+-   Telegraphy created a whole new world for business
+-   Those who did not have access to the technology were at a clear disadvantage 
+-   Most telegraph codes were created in the interest of the economy
+-  the codes used to transmit messages were borrowed, adapted, or inspired by earlier forms of communication
+-   Air and space travel would astonish Victorian time travelers, but not the internet.
+</strong></p>
+<hr/>
+<h3 id="links-thoughts_3">Links / Thoughts<a class="headerlink" href="#links-thoughts_3" title="Permanent link">¶</a></h3>
+<p>the telegraph had many different fazes in its upbringing which made it more and more advanced as it went along. With every shift brought more confusion and more excitement to society. 
+ - this is exactly the same as the internet. With every advancement brings more confusuon, but yet more excitement and more widespread acceptance.</p>
+<p>Title: The Monstrous Body of Knowledge in Mary Shelley’s ‘Frankenstein.
+type: Article</p>
+<h3 id="reference_4">Reference<a class="headerlink" href="#reference_4" title="Permanent link">¶</a></h3>
+<p><strong>
+Rauch, Alan. “The Monstrous Body of Knowledge in Mary Shelley’s ‘Frankenstein.’” Studies in Romanticism, vol. 34, no. 2, 1995, pp. 227–53. JSTOR, <a href="https://doi.org/10.2307/25601114">https://doi.org/10.2307/25601114</a>. Accessed 1 Feb. 2023.
+</strong></p>
+<hr/>
+<h3 id="summary-key-take-aways_4">Summary &amp; Key Take Aways<a class="headerlink" href="#summary-key-take-aways_4" title="Permanent link">¶</a></h3>
+<p><strong>
+-   Frankenstein represents a remarkable body of knowledge
+-   By ignoring the human qualities that clearly make knowledge effective, particularly nurturing and caring.
+-   Relevant to Galvani's experiment of electricity with the frog
+-   Knowledge was a male artifact in the nineteenth-century
+-   The monster, as the self conscious product of science, simply wants to change what counts as knowledge and in doing so, be counted.
+-   If any constraints exist on Frankenstein's knowledge, they are social rather than supernatural. 
+-   The monster represents a ‘species’ of knowledge that has not been contextualized
+-   The monster was created out of the curiosity of the scientist, not for the good of society.
+-   Because of this, society rejects the idea of it.
+</strong></p>
+<hr/>
+<h3 id="links-thoughts_4">Links / Thoughts<a class="headerlink" href="#links-thoughts_4" title="Permanent link">¶</a></h3>
+<p>the monster represents the internet.
+- because it is new, it is unaccepted by society
+- however, it contains so much in whch the people could dicover.</p>
+<p>ATOMIC NOTES</p>
+<p>title: How everything connects...
+Thoughts</p>
+<hr/>
+<p>After analyzing all of my sources, there is one recurring theme. Everything that becomes something  large (in our case, the internet), goes through stages. 
+- It becomes something new and unaccepted by society (the monster)
+- then it is forced on to society (Galvani's frog experiment)
+- only certain people have access, or accept it (the telegraph)
+- it becomes publicly accepted and the new norm (the internet)</p>
+<hr/>
+<h3 id="citational-information">Citational Information<a class="headerlink" href="#citational-information" title="Permanent link">¶</a></h3>
+<p>Marco Piccolino, Luigi Galvani and animal electricity: two centuries after the foundation of electrophysiology, Trends in Neurosciences, Volume 20, Issue 10, 1997, Pages 443-448, ISSN 0166-2236, https://doi.org/10.1016/S0166-2236(97)01101-6.(https://www.sciencedirect.com/science/article/pii/S0166223697011016)</p>
+<p>"We may all soon be 'first-class men'": Gender and Skill in Canada's early twentieth century urban telegraph industry An article of the journal Labour/Le Travailleur Volume 27, 1991, p. 97–125 <a href="https://www.erudit.org/en/journals/llt/1991-v27-llt_27/llt27art03/">https://www.erudit.org/en/journals/llt/1991-v27-llt_27/llt27art03/</a></p>
+<p>Luis F. Luna-Reyes, J. Ramon Gil-Garcia, Digital government transformation and internet portals: The co-evolution of technology, organizations, and institutions, Government Information Quarterly, Volume 31, Issue 4, 2014,Pages 545-555,ISSN 0740-624X,
+<a href="https://doi.org/10.1016/j.giq.2014.08.001">https://doi.org/10.1016/j.giq.2014.08.001</a>.(<a href="https://www.sciencedirect.com/science/article/pii/S0740624X14001257">https://www.sciencedirect.com/science/article/pii/S0740624X14001257</a>)</p>
+<p>"needle lodestone telegraphy" -&gt; Nalbach, A. (2001). [Review of The Victorian Internet: The Remarkable Story of the Telegraph and the Nineteenth Century’s On-Line Pioneers, by T. Standage]. Carlyle Studies Annual, 20, 108–112. <a href="http://www.jstor.org/stable/44945806">http://www.jstor.org/stable/44945806</a></p>
+<p>Rauch, Alan. “The Monstrous Body of Knowledge in Mary Shelley’s ‘Frankenstein.’” Studies in Romanticism, vol. 34, no. 2, 1995, pp. 227–53. JSTOR, <a href="https://doi.org/10.2307/25601114">https://doi.org/10.2307/25601114</a>. Accessed 1 Feb. 2023.</p>
+<p>LECTURE NOTES</p>
+<p>Archaeology (or the theoretical framework for this class)</p>
+<ul>
+<li>
+<p>We need archaeology not just because of the things of this history we want to explore, but also because of the places of this history</p>
+</li>
+<li>
+<p>The happenings of the past are just as relevant as the ones yet to come. They set the groundwork for what we newly discover.</p>
+</li>
+<li>
+<p>Theory is a framework for understanding the world &amp; directing your attention</p>
+</li>
+<li>
+<p>What's important?</p>
+</li>
+<li>
+<p>What questions do we have?</p>
+</li>
+<li>
+<p>Complicated vs complex</p>
+</li>
+<li>
+<p>A rocket ship verse the queensway</p>
+</li>
+<li>
+<p>Recall in class wave example</p>
+</li>
+<li>
+<p>You knew to raise arms when the person beside you did so</p>
+</li>
+<li>
+<p>Assemblage theory</p>
+</li>
+<li>
+<p>Atgencement, things come together</p>
+</li>
+<li>
+<p>Meaning depends on context</p>
+</li>
+<li>
+<p>Both internal,within</p>
+</li>
+<li>
+<p>External, in time</p>
+</li>
+<li>
+<p>External, in space</p>
+</li>
+<li>
+<p>Nothing is meaningful on its own</p>
+</li>
+<li>
+<p>This relates to the history of the internet because many different things relate to each other. Everything the internet did impacted humanity, and everything humanity did impacted the internet. </p>
+</li>
+<li>
+<p>The world can not be divided into physical objects/properties and human agency</p>
+</li>
+<li>
+<p>It's the interaction between human and object that matters</p>
+</li>
+<li>
+<p>Humans interact with their social medias every day</p>
+</li>
+<li>
+<p>Material engagement theory</p>
+</li>
+</ul>
+<p>Codes &amp; Ciphers</p>
+<ul>
+<li>
+<p>Cryptology: systems for ‘secret’ writing</p>
+</li>
+<li>
+<p>Cryptanalysis: system for revealing those secrets</p>
+</li>
+<li>
+<p>This is relevant in social life as well. In order to have privacy in any regard, you need a way to keep those private things to yourself.</p>
+</li>
+<li>
+<p>A code: ‘variable sized elements that have meaning in the plaintext language’ - syllables, words, phrases (Dooley, 5); thousands of substitutions</p>
+</li>
+</ul>
+<h2 id="-a-cipher-a-transformation-from-plaintext-according-to-some-transformation-dooley-5-6-small-fixed-number-of-substitution-elements">-   A cipher: a transformation from plaintext according to some transformation (Dooley, 5-6); ‘small fixed number of substitution elements’<a class="headerlink" href="#-a-cipher-a-transformation-from-plaintext-according-to-some-transformation-dooley-5-6-small-fixed-number-of-substitution-elements" title="Permanent link">¶</a></h2>
+<ul>
+<li>
+<p>Nomenclators</p>
+</li>
+<li>
+<p>Mixture of substitution cyphers and codebooks</p>
+</li>
+<li>
+<p>Still susceptible to frequency analysis and context-dependent guessing</p>
+</li>
+<li>
+<p>When analyzing history.. Think about where the gaps are</p>
+</li>
+<li>
+<p>This is where new research comes in</p>
+</li>
+<li>
+<p>Where are the women?</p>
+</li>
+<li>
+<p>Who/What is left out?</p>
+</li>
+<li>
+<p>What other things had to have happened to support all this?</p>
+</li>
+</ul>
+<p>Electric History</p>
+<ul>
+<li>
+<p>Lots of animals make electricity </p>
+</li>
+<li>
+<p>Until 18th century, electricity was nothing more than curiosity </p>
+</li>
+<li>
+<p>Looking for contrast between electricity and soul</p>
+</li>
+<li>
+<p>Electricity was discovered in frogs (animal bodies) :galvonism</p>
+</li>
+<li>
+<p>The vital force is in the body</p>
+</li>
+<li>
+<p>Use human corpses for experiment </p>
+</li>
+<li>
+<p>On the first application of the process to the face, the jaws of the deceased criminal began to quiver, and the adjoining muscles were horribly contorted, and one eye was actually opened</p>
+</li>
+<li>
+<p>In the subsequent part of the process the right hand was raised and clenched, and the legs and thighs were set in motion. Mr Pass, the beadle of the surgeons company, who was officially present during this experiment, was so alarmed that he died of fright </p>
+</li>
+<li>
+<p>What were the ancient Greeks up to?</p>
+</li>
+<li>
+<p>Amber in ancient greek is “elektron”</p>
+</li>
+<li>
+<p>People ask what is this stuff? (electricity: shocks)</p>
+</li>
+<li>
+<p>Connection between electricity and life</p>
+</li>
+<li>
+<p>Leyden jar</p>
+</li>
+<li>
+<p>Stores static electricity</p>
+</li>
+<li>
+<p>200 monks stand in a circle with metal rods.</p>
+</li>
+<li>
+<p>One holds leyden jar</p>
+</li>
+<li>
+<p>Shocks them all instantly </p>
+</li>
+<li>
+<p>Concludes electricity travels instantaneously </p>
+</li>
+<li>
+<p>Ben frank learns lightning and electricity is the same thing</p>
+</li>
+<li>
+<p>Lighting directors (rods) on buildings derived from kite experiment </p>
+</li>
+<li>
+<p>Batteries</p>
+</li>
+<li>
+<p>Came from experiment which stacked metal and wet cloth </p>
+</li>
+<li>
+<p>Scholarly literature began with guys meeting once a month to share ideas</p>
+</li>
+<li>
+<p>“The lunatics”</p>
+</li>
+<li>
+<p>Electricity and magnets</p>
+</li>
+<li>
+<p>Hans Chrisitan Orsted - works out that electric current in a nearby wire will deflect a compass needle; he works out that electric current produces a circular magnetic field</p>
+</li>
+<li>
+<p>Michael Faraday - works out how to go the other way, that you could use a magnet to induce electricity</p>
+</li>
+<li>
+<p>Joseph Henry - inventor of many electrical devices, including the relay</p>
+</li>
+<li>
+<p>There was so much electricity in the air, as it were, that all of these things were being discovered by multiple people at much the same time</p>
+</li>
+<li>
+<p>Michael henry built the relay</p>
+</li>
+<li>
+<p>A mile long wire in which he sent electricity through and rung a bell after</p>
+</li>
+<li>
+<p>Collapse of space time </p>
+</li>
+<li>
+<p>Telegraphs</p>
+</li>
+<li>
+<p>You can't just string up a wire from A to B</p>
+</li>
+<li>
+<p>Gotta think in circuits and take into account how to make that juice flow</p>
+</li>
+<li>
+<p>One Henry - and others - solved that, messages at a distance are now feasible</p>
+</li>
+<li>
+<p>Just in time too: first steam-powered railways open in the 1830s</p>
+</li>
+</ul>
+<p>Mediums &amp; Messages</p>
+<ul>
+<li>
+<p>‘Medium’ is something that carries something else</p>
+</li>
+<li>
+<p>Carrying information. Social media, newspapers, movies, speeches etc…</p>
+</li>
+<li>
+<p>Who decides that something is important?</p>
+</li>
+<li>
+<p>In relation to the modern day internet, it is big media industries. They control the algorithms, which effectively control the public sphere.</p>
+</li>
+<li>
+<p>“Classifications both reflect and direct our thinking. The way we order represents the way we think’</p>
+</li>
+<li>
+<p>Stephen Jay Gould, ‘The Titular Bishop of Titiopolis’, Natural History 90: 22 1981</p>
+</li>
+<li>
+<p>The medium holds just as much importance as the message</p>
+</li>
+<li>
+<p>The way something is interpreted is impacted not just by the message, but how it is delivered.</p>
+</li>
+<li>
+<p>Breaking up with someone over text is more rude than over a phone call. Breaking up with someone over a phone call is more rude than breaking up with them in person.</p>
+</li>
+<li>
+<p>The way we classify media/messages has implications for power, control, and discipline (reflects and directs our thinking)</p>
+</li>
+<li>
+<p>Libraries reflect the world back to itself</p>
+</li>
+<li>
+<p>The way the world is interpreted by humans is captured in academic literacy.</p>
+</li>
+<li>
+<p>“Books inspire other books written in the future, and cite books written in the past” - Pratchett</p>
+</li>
+<li>
+<p>Bidirectional link</p>
+</li>
+<li>
+<p>Two way connection</p>
+</li>
+<li>
+<p>We try to find a correct way to organize information, but all this does is reflect what how we already see the world</p>
+</li>
+<li>
+<p>Serendipity: a function of a particular vision of the world, a reproduction of its norms</p>
+</li>
+<li>
+<p>The digitization of knowledge is built by people for whom these categorizations/classifications of the world are normalized</p>
+</li>
+<li>
+<p>This is now the norm. The future is digital, and nobody denies it.</p>
+</li>
+<li>
+<p>As the internet continues to evolve, shifts in what we believe to be normal will continue to happen. Power distribution will continue to change along with it.</p>
+</li>
+</ul>
+<p>SOURCE NOTES SUBMISSION 2</p>
+<p>Title: <strong>The Electric Eel, Animal Electricity, and Later Years</strong>
+type: Article</p>
+<h3 id="reference_5">Reference<a class="headerlink" href="#reference_5" title="Permanent link">¶</a></h3>
+<p>**</p>
+<p>Stanley Finger, Marco Piccolino &amp; Frank W. Stahnisch (2013) Alexander von Humboldt: Galvanism, Animal Electricity, and Self-Experimentation Part 2: The Electric Eel, Animal Electricity, and Later Years, Journal of the History of the Neurosciences, 22:4, 327-352, DOI: 10.1080/0964704X.2012.732728</p>
+<p>**</p>
+<hr/>
+<h3 id="summary-key-take-aways_5">Summary &amp; Key Take Aways<a class="headerlink" href="#summary-key-take-aways_5" title="Permanent link">¶</a></h3>
+<p>**
+- Alexander von Humbolt conducted extensive studies in the 1790s on “animal electricity and metallic electricity)
+He did studies on electric eels in SOuth America and would often use his body in the experiments </p>
+<ul>
+<li>He headed to paris in 1768 and visited museums, scientific meetings, met with leading french scientists, and was asked to advise an Academie commission investigating galvanism</li>
+<li>Humboldt and Bonpland hiked for six weeks from the Mediterranean Coast across the Pyrenees Mountains to continue their study</li>
+<li>They persuaded S[anish King Charles to let them explore in the American territories</li>
+<li>He was told he would have to pay his own expenses but still inform New Spain of his findings for how they could best exploit its mines and other riches</li>
+<li>He said the framework for his research endeavors will be “the harmony of concurrent forces, and the influence of inanimate world on animal and vegetal life” (trans, from Hamy, 1905, p. 18)</li>
+<li>He brought with him a number of electrical instruments “I had brought with me electrometers mounted with straw, pith-balls, and gold-leaf; also a small leyden jar which could be charged by friction”</li>
+<li>He brought these instruments to study the so-called “electric eels” inspired by his extensive galvanic research in Europe</li>
+<li>He tests his instruments and the eels defend themselves from the electricity whereas the horses sank beneath the water and died</li>
+<li>
+<p>March 19, 1800, Humbolt began his research on the eels at Cano de Bera. One year after his return to Europe he published his findings in various scientific journals.</p>
+</li>
+<li>
+<p>Humbolt found that eels shocking organs are large and take up two thirds of their body</p>
+</li>
+</ul>
+<p>**</p>
+<hr/>
+<h3 id="links-thoughts_5">Links / Thoughts<a class="headerlink" href="#links-thoughts_5" title="Permanent link">¶</a></h3>
+<p>The telegraph is considered to be what biorthed the intenet. Without this research on electricity, then the telegraph would have never been succesful. This travelling around to tests on animals across the globe is what the internet possible.</p>
+<p>Title: <strong>A Victorian Ecological Disaster: Imperialism, the Telegraph, and Gutta-Percha.</strong>
+type: Article</p>
+<h3 id="reference_6">Reference<a class="headerlink" href="#reference_6" title="Permanent link">¶</a></h3>
+<p>**</p>
+<p>Tully, John. “A Victorian Ecological Disaster: Imperialism, the Telegraph, and Gutta-Percha.” Journal of World History, vol. 20, no. 4, 2009, pp. 559–79. JSTOR, http://www.jstor.org/stable/40542850. Accessed 10 Mar. 2023.</p>
+<p>**</p>
+<hr/>
+<h3 id="summary-key-take-aways_6">Summary &amp; Key Take Aways<a class="headerlink" href="#summary-key-take-aways_6" title="Permanent link">¶</a></h3>
+<p>**</p>
+<p>“The political unity of India, more consolidated, and extending farther than it ever did under the Great Moguls, was the first condition of its regeneration. That unity, imposed by the British sword, will now be strengthened and perpetuated by the electric telegraph/” - Karl Marx, 1853
+For most of human history the speed of communication relied on physical transportation
+This impacted social, political, and economic factors
+Impacted wars. Messages took a long time to be received.</p>
+<p>The European powers grew due to the improvements in their communications technology
+They could send military messages much faster than those who relied on a physical messenger</p>
+<p>This utility began to be recognized
+This sparked the necessity of the telegraph, everyone needed its technology to be a competitor</p>
+<p>**</p>
+<hr/>
+<h3 id="links-thoughts_6">Links / Thoughts<a class="headerlink" href="#links-thoughts_6" title="Permanent link">¶</a></h3>
+<p>The telegraph became a necessity for the survival of colonies. Just like today, if you do not keep up with technological evolution, you will be left behind. For example, Countries who do not keep up with new technology in their military are not respected.</p>
+<p>Title: <strong>A symbolic analysis of relay and switching circuits</strong>
+type: Article</p>
+<h3 id="reference_7">Reference<a class="headerlink" href="#reference_7" title="Permanent link">¶</a></h3>
+<p>**</p>
+<p>C. E. Shannon, "A symbolic analysis of relay and switching circuits," in Electrical Engineering, vol. 57, no. 12, pp. 713-723, Dec. 1938, doi: 10.1109/EE.1938.6431064.</p>
+<p>**</p>
+<hr/>
+<h3 id="summary-key-take-aways_7">Summary &amp; Key Take Aways<a class="headerlink" href="#summary-key-take-aways_7" title="Permanent link">¶</a></h3>
+<p>**</p>
+<p>Modern technology is reliant on relay contacts and switches
+This all began with the telegraph</p>
+<p>The circuit between two terminals must be open or closed at all times
+This applies to literally all modern technology</p>
+<p>I am not a mathematician, so a lot of this article was difficult for me to understand, but it was clear that all technology is reliant on circuits, and every circuit can be mathematically dissected making every move predictable.</p>
+<p>Just like how a telegraph needs two ends to be working with each other, so does all modern tech. For example, a tv only turns on if the cord is plugged in</p>
+<p>**</p>
+<hr/>
+<h3 id="links-thoughts_7">Links / Thoughts<a class="headerlink" href="#links-thoughts_7" title="Permanent link">¶</a></h3>
+<p>Something as simple as a ciruit that open and closed at all times created the evolution of all technology. It is amazing because we can prdict everything with methematics. </p>
+<p>Title: <strong> The Thrilling Adventures of Lovelace and Babbage </strong>
+type: Article</p>
+<h3 id="reference_8">Reference<a class="headerlink" href="#reference_8" title="Permanent link">¶</a></h3>
+<p>**</p>
+<p>Padua, Sydney. The Thrilling Adventures of Lovelace and Babbage : with Interesting &amp; Curious Anecdotes of Celebrated and Distinguished Characters Fully Illustrating a Variety of Instructive and Amusing Scenes ; as Performed Within and Without the Remarkable Difference Engine. New York: Pantheon Books, 2015. Print.</p>
+<p>**</p>
+<hr/>
+<h3 id="summary-key-take-aways_8">Summary &amp; Key Take Aways<a class="headerlink" href="#summary-key-take-aways_8" title="Permanent link">¶</a></h3>
+<p>**</p>
+<p>Ada is a programming language for military computer systems
+Was made in the late 1970s by a French computer scientists under contract to the United States Defense Department
+The language is now used in nuclear power plants, medical devices, air traffic control etc.</p>
+<p>The book is written in black and white images. Babbage's machine is a large contraption. Nothing like a computer now.</p>
+<p>The book then goes into a fictional story in what is called the “Pocket Universe”
+They fight crime and have adventures with the analytical engine 
+At one point this was fictional, now we actually do this</p>
+<p>This was an interesting read as what was once seen as a futuristic fiction, is now a reality. </p>
+<p>**</p>
+<hr/>
+<h3 id="links-thoughts_8">Links / Thoughts<a class="headerlink" href="#links-thoughts_8" title="Permanent link">¶</a></h3>
+<p>What we have today in regards to technology was once a fictional dreamland. Maybe what we see now as a fiction dreamland will one day be reality. Maybe countries will be an by AI?</p>
+<p>Title: <strong>  How Modern Telecommunications Evolved from the Telegraph to the Internet </strong>
+type: Article</p>
+<h3 id="reference_9">Reference<a class="headerlink" href="#reference_9" title="Permanent link">¶</a></h3>
+<p>**</p>
+<p>Wheen, Andrew. Dot-Dash to Dot.Com: How Modern Telecommunications Evolved from the Telegraph to the Internet. New York, NY: Springer New York, 2010. Web.</p>
+<p>**</p>
+<hr/>
+<h3 id="summary-key-take-aways_9">Summary &amp; Key Take Aways<a class="headerlink" href="#summary-key-take-aways_9" title="Permanent link">¶</a></h3>
+<p>**</p>
+<p>From the days of the Roman Empire to the start of the nineteenth century, methods of communication made little progress
+Speed of information was restricted to the speed of a horse or a sailboat
+For example, it took 2 months for the news of Nelson’s sensational victory at the Battle of the Nile to reach London un 1798
+Another example, in 1812, a message was sent by way of boat from England to the US to inform them that they would no longer interfere with American shipping. The US declared war before the not arrived resulting in the deaths of thousands of soldiers</p>
+<p>Not only was slow communication impacting the military, it also impacted economic and social activity. 
+For example, newspapers were publishing news that was actually months old</p>
+<p>The first practical telegraph system in the 1830s was the start of resolving these issues
+The telegraph was the building block for telephone networks.
+Telephone networks were the building blocks for the internet </p>
+<p>**</p>
+<hr/>
+<h3 id="links-thoughts_9">Links / Thoughts<a class="headerlink" href="#links-thoughts_9" title="Permanent link">¶</a></h3>
+<p>The telegraph is the reason all modern technology exists. Simple arrangements of wire and mechanical switches evolved into television, social networking, podcasting, and the World WIde Web.
+The doorbell evolved from the telegraph. The television evolved from the doorbell.</p>
+<p>ATOMIC NOTES SUBMISSION 2</p>
+<p>title: How everything connects...
+Thoughts</p>
+<hr/>
+<p>After analyziong all of sources, my thoughts were very eye opening. For example, big tech industries would not exists if somebody did not travell across the world to test electric eels and survive to publish the findings. The evolution of modern technology begins at the very start of electricity. Nothing can exists without something coming before it. The telegraph is responsible for all fast communications, which involves the internet. If we never found out how to make a electric doorbell work, we would never have AI.</p>
+<hr/>
+<h3 id="citational-information_1">Citational Information<a class="headerlink" href="#citational-information_1" title="Permanent link">¶</a></h3>
+<p>Stanley Finger, Marco Piccolino &amp; Frank W. Stahnisch (2013) Alexander von Humboldt: Galvanism, Animal Electricity, and Self-Experimentation Part 2: The Electric Eel, Animal Electricity, and Later Years, Journal of the History of the Neurosciences, 22:4, 327-352, DOI: 10.1080/0964704X.2012.732728</p>
+<p>Tully, John. “A Victorian Ecological Disaster: Imperialism, the Telegraph, and Gutta-Percha.” Journal of World History, vol. 20, no. 4, 2009, pp. 559–79. JSTOR, http://www.jstor.org/stable/40542850. Accessed 10 Mar. 2023.</p>
+<p>C. E. Shannon, "A symbolic analysis of relay and switching circuits," in Electrical Engineering, vol. 57, no. 12, pp. 713-723, Dec. 1938, doi: 10.1109/EE.1938.6431064.</p>
+<p>Padua, Sydney. The Thrilling Adventures of Lovelace and Babbage : with Interesting &amp; Curious Anecdotes of Celebrated and Distinguished Characters Fully Illustrating a Variety of Instructive and Amusing Scenes ; as Performed Within and Without the Remarkable Difference Engine. New York: Pantheon Books, 2015. Print.</p>
+<p>Wheen, Andrew. Dot-Dash to Dot.Com: How Modern Telecommunications Evolved from the Telegraph to the Internet. New York, NY: Springer New York, 2010. Web.</p>
+<p>LECTURE NOTES + THOUGHTS SUBMISSION 2</p>
+<p>February 13: The first internet: the telegraph</p>
+<p>Assemblages of technologies exist in many fields
+Complex systems can be viewed as assemblies
+It is possible for complex systems to evolve under the right conditions
+How should the right conditions be met? What made the electrical telegraph more successful?
+What did it teach us about electricity-powered networks?
+In order to do that, we need a framework for identifying the story's why.
+We inquire to understand why history exists; history is a verb</p>
+<p>The telegraph was the start of all modern technology. </p>
+<p>Supervening Social Necessity
+All the pieces were in place
+Especially the creation of the galvanometer
+The emergence of the railroad provides the necessity that the Admiralty’s blinkered view could not 
+First passenger railway Stockton-Darlington in UK, 1825</p>
+<p>Even the railroad evolved from the telegraph. The creation of a circuit where electricity is sent from one end to another is central to all things technology (which began with the telegraph).</p>
+<p>February 15: Moar! Telegraph</p>
+<p>The stock market
+Viral texts</p>
+<p>Multiple services emerge; Multiplelawsuits
+Henry O’Reilly in the western US; secures right to exploit Morse Patents; Morse later regrets this
+Cooke and Wheatstone have american patents prior to Morse
+Alexander Bain, ‘Chemical telegraph’ (1843, similar in concept to Davy’s)
+Competing services, technologies stringing lines side-by-side (as between Boston andWashington, New York and Buffalo)
+Eventually Morse is triumphant in the courts
+Extending the Wires
+All those court battles; also vandalism, cutting of lines
+By 1851, Morse triumphant! Consolidation of lines in US
+Only three companies still standing
+By the end of 1860s only Western union still standing</p>
+<blockquote>
+<p>150 companies absorbed
+37380 miles of cable
+2250 telegraph offices</p>
+</blockquote>
+<p>In this sense, the telegraph also created big tech industries and all the issues that can come with that lol.</p>
+<p>“ We are in great haste to construct a magnetic telegraph from Main to Texas; but Maine and Texas, it may be, have nothing to communicate “ - Thoreau
+Individual states begin to realize that controls of international communications matters
+Britain especially advantaged: control of gutta pecha, colonies around the world to control start/end of long distant lines
+1875 President Grant explains why a French cable company was denied permission to land a cable in the US: they gotta let us use their cable in return.
+Implications for colonialism
+Takes about 100 days to sail from London to Hong Kong
+Marx &amp; Engels 1848: “The need of a constantly expanding market for its product chases the bourgeoisie over the whole surface of the globe. It must nestle everywhere, settle everywhere, establish connections everywhere.”
+If distance is collapsed
+If messages can be transmitted thousands of miles within seconds/minutes
+Then what is to stop a state from expanding its reach? 
+(you can play with the concept of space/time in the context of the Roman World with ORBIS)
+Resinous -tree-gum that can be crafted in a plastic/rubbery way
+Without Gutta-Percha, there is no trans-atlantic cable. There is no long distance telegraphy.
+By early 20th century, there were 200 000 miles of undersea cable; GP about 27 000 tons; that means 88 million trees destroyed</p>
+<p>March 1st: how business shenanigans gives rise to information theory</p>
+<p>By the end of the 19th century, ‘networks’ were not a novel idea</p>
+<p>Bell:
+“In a similar manner, it is conceivable hat cables of telephone wires could be laid underground, or suspended overhead, communicating by branch wires with private dwellings, country houses, shops, manufactories… unting them through the main cable with a central office where the wires could be connected as desired, establishing direct communication between any two places… I believe, in the future, wires will unite the head offices of the telephone company in different cities, and a man …may communicate by word of mouth with another in a distant place. (prospectus for prospective investors)
+First bell company founded in 1875
+First telephone exchange operated by Western Union’s telephone subsidiary
+First woman central office operator: 1878, Emma Nutt
+Idea of assigning unique numbers to subscribers suggested in 1879</p>
+<p>“National Bell” becomes ‘American Bell”
+Upshot:
+Hubbard &amp; Bell are out
+Theodore Vail remains
+The agreement with Western Union still in force</p>
+<p>As mentioned, the telegraph was the birth of big tech. All issues related to big tech (information leaks, public opinion control etc) all goes back to the creation of the telegraph.</p>
+<p>Which breaks the agreement
+1884 American Bell established a long distance line between NY &amp; Boston.
+Creates a subsidiary company to do this: American Telephone &amp; Telegraph Company 
+Establishes a laboratory to improve long distance telephony 
+1888- all curts battles around the original patents are won by Bell
+Bell is making money hand over fist, even though rest of economy is in depression
+Too bad the patents just won were about to expire
+Independents appear; Bell fights them with both legitimate &amp; spurious court cases
+Cuts rates ridiculously where there is competition
+Refuses to interconnect to other systems
+Buys up stocks of competitors</p>
+<p>Long distance telephony was central to Bell’s plan to survive the expiration of its patents
+Seemed also that Bell was directing customers to use telegraph services that it owned/had major stake in
+Antitrust legislation, populist politicians, interstate commerce commission: AT&amp;T in the crosshairs</p>
+<p>The telegraph created a battle for control of information.</p>
+<p>information theory</p>
+<p>Claude Shannon in 1948 took this idea to its logical conclusion and developed a way to think about a message as being composed of two things:
+The content
+The information 
+‘Information’ is a measurement of the redundancy of that content, or how ‘surprising’ the next letter/sound/wave/is.</p>
+<p>Information theory is still very relevant today.</p>
+<p>March 6: Digital, Electronic Computers: Competences &amp; Social Necessities </p>
+<p>Competences</p>
+<p>The turing machine</p>
+<p>Shannon again &amp; telephone relays/exchanges
+Combine information theory with Turing’s ‘universal computer’ and you have a way for a machine computer to simulate any of the work a human computer could do.</p>
+<p>Parallel kinds of ‘computing’ devices - the analogue simulators
+Kelvins tide calculator for different points around the world
+Kelvin proposes in 1876 a way of linking several similar devices together physically to simulate differential equations
+The mechanisms to achieve this not developed until the 1920s… and Vennevar Bush</p>
+<p>‘programming’ these machines:
+Literally bashing them into different shapes with hammers and wrenches
+Useful for scientific analysis</p>
+<p>Modern technology began with what we would now consider utter foolishness</p>
+<p>Howard Aitken
+Prof at Harvard. Had designed his own electromechanical calculator to help with his thesis work; proposes the machine to the military in 1937; military says nah, though its own renewing engineer wanted it; engineer introduces Aitken to IBM &amp; Thomas Watson (president)</p>
+<p>Existing ‘social necessity’ good enough for electromechanical calculators, not enough for all-purpose general computers</p>
+<p>Ballistics
+The industrialization of war over the 19th century - new types of guns (e.g. field guns - cannons etc), new types of firepower
+Reverend Francis Bashforth, 1864-1880 - experiments related to air dag and velocity -produces the first firing tables
+US military, in aftermath of civil war, establishes testing range to trai ballistic officers and work out tables for different kinds of guns</p>
+<p>Programming - Competences</p>
+<p>We’re now in the period of digital incunabula
+The missing supervening social necessity? Nuclear war</p>
+<p>For humans to fully uncover the capabilities of modern technology, it needs to be experimented in every aspect. This includes war which would be nuclear in present time</p>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="assets/javascripts/bundle.fc8c2696.min.js"></script>
+<script src="javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</body>
+</html>
