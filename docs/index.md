@@ -909,9 +909,455 @@ The missing supervening social necessity? Nuclear war
 For humans to fully uncover the capabilities of modern technology, it needs to be experimented in every aspect. This includes war which would be nuclear in present time
 
 
+SOURCE NOTES SUBMISSION 3
+
+Title: **Customer Acceptance of Online Banking in Developing Economies**
+type: Article
+
+### Reference 
+
+**
+Qureshi, Tahir. "Customer Acceptance of Online Banking in Developing Economies." Journal of Internet Banking and Commerce, 2023, https://doi.org/https://www.icommercecentral.com/open-access/customer-acceptance-of-online-banking-in-developing-economies.php?aid=38410.
+
+**
+
+
+---
+
+### Summary & Key Take Aways
+**
+BASED IN 1990s
+
+Rapid tech advancements have introduced major changes in the worldwide economic and business atmosphere
+Banking sector can attribute tech for sped up communication and transactions
+
+In this study, the customer acceptance of online banking in Pakistan is evaluated
+
+The pakistan banking sector has done amazing do the evolution of tech in the banking system. Has caused a competitive atmosphere.
+
+Online banking is the most recent delivery channel introduced by mainstream banking and causes competition as every bank needs to have optimal online banking to keep up with the competition.
+A bank can no longer survive without online banking
+
+It is expected that 60% of retail banking dealings will be online in ten years’ time
+
+Due to the time saving nature of onlinebanking, customer acceptance has not been an issue.
+
+The intention of this paper is to evaluate the factors that manipulate the nature of customers towards online banking and their growing tendency towards the online financial institutions.
+
+Customer acceptance is strongly contributed to the perceived usefulness of online banking
+Customer acceptance also contributed to the safety and privacy that online banking delivers.
+
+In Pakistan, almost 50% of the customers shifted from traditional banking to online banking.
+
+
+**
+
+
+--- 
+
+### Links / Thoughts
+Humans crave convenience. This is the reason the internet has gotten to the point it is at today, it has made virtually everything more convenient. Now, you don’t need to even leave your house to do your banking. This need for convenience began with the telegraph. It made it more convenient to communicate, and this ideology bled into all other aspects of the digital world.
+
+
+Title: **Misunderstanding the Internet**
+type: Article
+
+### Reference 
+
+**
+Curran, James. "Misunderstanding the Internet." Routledge, 2016, https://doi.org/https://books.google.ca/books?hl=en&lr=&id=4GeFCwAAQBAJ&oi=fnd&pg=PP1&dq=when+the+internet+was+invented&ots=R8jtAXwfK_&sig=DKIAS9PngkjFRCLqqXeFhBTTxF8&redir_esc=y#v=onepage&q=when%20the%20internet%20w.
+
+**
+
+
+---
+
+### Summary & Key Take Aways
+**
+In the 1990s leading experts, politicians, public officials, business leaders and journalists predicted that the internet would transform the world. The 
+This would change everything from the way business is run to way democracy is organized and information is shared
+
+Very quickly it was absurd to assume someone could live entirely offline. Passive consumption became active participation
+
+Some predictions did not come true
+It was predicted that the internet would lead to the undermining of dictators. This proved to be incorrect.
+
+Some people were still very skeptical. Skepticisms included that internet usage was taking away from personal relationships and that it did not actually re-shape the world like others said it was doing even though it was seemingly doing exactly that.
+
+A lot of claims were incorrect though. In the 1990s it was widely claimed that the internet would generate wealth and prosperity for all. This did not happen, it only made the rich richer.
+
+Although not everyone got rich, the internet did create a new economy. This created more predictions that all earlier predictions haven't come true simply because they were premature and they are yet to come true.
+
+The internet changed interactions between suppliers, producers and consumers.
+Effectively changing the economy
+Resulted in big companies dominance and control of information (e.g. google)
+
+
+**
+
+
+--- 
+
+### Links / Thoughts
+Perhaps the truth in all of these predictions lies somewhere in the middle of it all. Shoot for the moon and land on the stars type of thing. The internet has certainly changed the way the economy and society functions as a whole. But some of these predictions have only become partly true. For example, it was predicted that the internet would make everyone rich. This did not happen, but the internet did make a lot more people rich as it presented uncountable new ways to make money. It was predicted that the internet would essentially abolish communism, this hasn't been true but it has had a similar effect. The internet makes it much harder for these leaders to control their people, so perhaps in the future, the internet will make it impossible for communism to exist.
+
+
+Title: **The art of navigating through hypertext.**
+type: Article
+
+### Reference 
+
+**
+Nielson, Jakob. "The art of navigating through hypertext." Association for Computing Machinery, Mar. 1990, https://doi.org/https://dl.acm.org/doi/abs/10.1145/77481.77483.
+
+**
+
+
+---
+
+### Summary & Key Take Aways
+**
+Hypertext is a non-sequential writing: a node contains some amount of text or other information. The nodes are connected by directed links
+
+People often get lost in navigating these hypertexts 
+They are bi-directional
+left/right or in/out
+
+A solution for this is helping users recognize their present location
+Overview diagrams have been used as navigational aids
+This system used two levels of overview diagrams tro provide users with both a coarse-grained sense of location in the local neighborhood of the current node. This approach works well in the current system which is fairly small, since its information space is divided into only 95 screens containing text which took just 9 pages
+
+Videotex systems showed that the backtrack facility was one of the most important navigation facilities, especially for novice users.
+Users use backtrack when they are in a situation they can not handle
+
+Timestamps stamp movements between users' screens. When a user returns to a location in the hypertext, the system displays the time which has passed since that user's previous visit to that location.
+
+Footprints use check marks to serve as footprints on the overview diagrams, indicating where the user has been.
+
+
+**
+
+
+--- 
+
+### Links / Thoughts
+The amount the internet has evolved in such a short amount of time is incredible. Not that long ago people were struggling to navigate it as this article outlines. This connects to Curran James' article about the predictions people made for the internet because it is evolving so fast. Some of those predictions may not be incorrect, it may just be the case that they haven’t come true yet.
+
+
+Title: **The role of big data analytics in industrial Internet of Things**
+type: Article
+
+### Reference 
+
+**
+Rehman, Muhammad. "ScienceDirext." The role of big data analytics in industrial Internet of Things, Oct. 2019, https://doi.org/https://www-sciencedirect-com.proxy.library.carleton.ca/science/article/pii/S0167739X18313645?casa_token=UN2We1fTSmEAAAAA:BdeW5FXstwJnbMVI-gftnu6Z1hoSeiBgSJTnuqmMCQm9UQpvPtXh6vWhJqsdYvFXRm2WNVj-Pg.
+
+
+**
+
+
+---
+
+### Summary & Key Take Aways
+**
+The industrial internet of things (IIOT) is currently attributed as the fourth industrial revolution 
+
+The internet of things
+Cyber-physical systems
+Cloud computing
+Automation
+Wireless techs
+AR
+Concentric computing
+Etc
+
+Big data in IIOT systems emerge from a plethora of technologies
+
+IoT devices in IIOT systems refer to devices that can remotely sense and actuate in industrial environments
+The on-board sensing facilities in IoT devices lead the generation of big data.
+Teye result in massive back-end cloud service utilization for the execution of BDA processes.
+
+BDA processes are executed as a result of multistage highly interdependent application components 
+
+Big data emerges in raw form with large volume and enormous speed, and data scientists spend 70%-80% of their time in data preparation activities. 
+
+A common example of IIOT systems is the concept of a smart factor system (SFS)
+Key attributes:
+Self-awareness
+Self organization
+Self0 Maintenance
+Self-prediction
+Self-configuration
+And self-comparison
+
+The vision of the future industries to connect manufacturing systems with distributors and consumers can only be achieved by adopting IIOT and BDA processes as core components for value creation.
+Adoption of BDA in IIOT systems is still in its early stage. 
+Currency bDA systems provide generic frameworks for data engineering, preparation and analysis, however, considerable efforts are required to alter existing BDA processes to meet the demands of IIOT systems.
 
 
 
+**
+
+
+--- 
+
+### Links / Thoughts
+Big data controls everything. This is becoming more apparent as the internet continues to evolve. Everything is driven by money, and right now the internet is growing because of the money big companies are making through big data collection on the users of the internet.
+
+
+Title: **Information Gatekeepers on the Internet and the Competitiveness of Homogeneous Product Markets**
+type: Article
+
+### Reference 
+
+**
+Baye, Michael, R., and John Morgan. 2001. "Information Gatekeepers on the Internet and the Competitiveness of Homogeneous Product Markets." American Economic Review, 91 (3): 454-474.
+
+**
+
+
+---
+
+### Summary & Key Take Aways
+**
+Market for price information is controlled by a gatekeeper
+So is the homogenous market it serves
+
+The gatekeeper charges fees to firms that advertise prices on its internet site and to consumers who access the list of advertised prices
+
+How gatekeepers make profit
+The product market exhibits price dispersion
+Access fees at sufficiently low that all consumers subscribe
+Advertising fees exceed especially optimal levels which leads to partial firm participation
+Advertised prices are below unadvertised prices.
+
+**
+
+
+--- 
+
+### Links / Thoughts
+This article connects directly with Muhammed Rehmans. Money controls everything. Every aspect of the internet exists so someone else can profit. These gatekeepers take advantage of everything they can to get money out of the information flowing on the internet.
+
+
+ATOMIC NOTES SUBMISSION 3
+
+title: How everything connects...
+Thoughts
+---
+After analyzing my additional sources, one theme kept coming to mind. Everthing is driven by money.
+
+Once the internet was created, every advancement served to benefit somebody other than the everyday user. The people that serve to benefit the most are the gatekeeprs that control the flow of information. From the development of the telegraph, to the most recent development of AI technology, somebody other than the everyday user has benefited greatly. This leaves me with a confusing head space at the end of the course. I feel as if the entire advancement of the internet was designed in some way to further push capitalsim.
+
+---
+### Citational Information
+
+Qureshi, Tahir. "Customer Acceptance of Online Banking in Developing Economies." Journal of Internet Banking and Commerce, 2023, https://doi.org/https://www.icommercecentral.com/open-access/customer-acceptance-of-online-banking-in-developing-economies.php?aid=38410.
+
+Curran, James. "Misunderstanding the Internet." Routledge, 2016, https://doi.org/https://books.google.ca/books?hl=en&lr=&id=4GeFCwAAQBAJ&oi=fnd&pg=PP1&dq=when+the+internet+was+invented&ots=R8jtAXwfK_&sig=DKIAS9PngkjFRCLqqXeFhBTTxF8&redir_esc=y#v=onepage&q=when%20the%20internet%20w.
+
+Nielson, Jakob. "The art of navigating through hypertext." Association for Computing Machinery, Mar. 1990, https://doi.org/https://dl.acm.org/doi/abs/10.1145/77481.77483.
+
+
+Rehman, Muhammad. "ScienceDirext." The role of big data analytics in industrial Internet of Things, Oct. 2019, https://doi.org/https://www-sciencedirect-com.proxy.library.carleton.ca/science/article/pii/S0167739X18313645?casa_token=UN2We1fTSmEAAAAA:BdeW5FXstwJnbMVI-gftnu6Z1hoSeiBgSJTnuqmMCQm9UQpvPtXh6vWhJqsdYvFXRm2WNVj-Pg.
+
+Baye, Michael, R., and John Morgan. 2001. "Information Gatekeepers on the Internet and the Competitiveness of Homogeneous Product Markets." American Economic Review, 91 (3): 454-474.
+
+
+LECTURE NOTES + THOUGHTS SUBMISSION 3
+
+March 13: Is it time for the internet yet?
+
+Info theory allows us to separate the meaning of a message from its ‘information’, the measure of its redundancy, hence, the amount of damage it can take and still be understood.
+Without that insight, nothing else can work. It’s what makes digital communications work.
+
+“When data of any sort are placed in storage, they are filed alphabetically or numerically, and information is found (when it is) by tracing it down from subclass. It can only be in one place… The human mind does not work that way. It operates by association. With one item in its grasp, it snaps instantly to the nxt that is suggested by the association of thoughts, in accordance with some intricate web of trails carried by the cells of the brain.”
+
+Timesharing
+Technique for using the speed of the computer to present the appearance of multiple simultaneous users
+Terminal - a keyboard/teletype/whatever for
+
+Packet switching
+Developed independently in US, and in UK, at the same time
+Only one of these was framed in the context of surviving nuclear war
+
+US Political Context
+Paul Baran engineer at the Rand COrporation begins thinking about secure communications
+Baran’s original system was the simplest system: go/no go , nuke or no nuke
+
+Controlling data flow
+“Message switching”
+And telephone switches used information theory to figure out least congested routes to wire a circuit
+
+IBM 2741, ca 1965
+A direct connection in adjacent rooms at first
+Then local phone lines
+But long distance rates interfere
+High cost of communication makes users work fast. WHich undermines purpose of timesharing
+
+Davus unveils packet switching in 1966 at a conference
+Learns form a British military officer afterwards that it's already been invented by Baran
+Baran uses words like ‘survivable’, ‘kill’, ‘salvos’, ‘target’
+Davus reads Baran’s work, says, y’know, we don't need this in a civilian context
+
+Lyndon Johnson in 1965 - directed agencies to support basic university research, and that centers of excellence should be created throughout the university 
+Lawrence Roberts - manager, ARPANET project, 1966
+
+March 20: Online Cultures of the 1970s & Early 1980s
+
+The plot so far:
+The emergence of personal computers
+The emergence of BBS and other online services that are not the internet
+Remember, the other kind of ‘computer’ most people would be familiar with would be the Atari video game console (and similar)
+Playing games -> desire to connect -> WarGames -> regulatory climate
+Playing games -> technological innovation
+
+These early communities give people a sense of hot to be, via a computer
+Because a lot of the early games were about recreating a sense of an actual place, my contention: these actually were places, for all intents and purposes
+They were someplace you went. Your body might be here, but your mind & social world were elsewhere.
+
+Where the people go, capitalism is sure to follow. It just depends on having the right metaphor
+
+March 22: Sliding into hypertext and the Web
+
+1983 - ARPANET switches over to TC/ICP; MILNET split off
+1983 Domain Names System devised
+1984 comes into effect: gov, .mil, .edu, .org, .net, and .com.
+1986 NSF backbone is built; NSF, like DCA before it, limits use to ‘approved’ uses. Also decided to use TC/ICP
+1987 over 10000 hosts now on ‘the internet’
+
+1988 commercial email allowed to be transported over NSFNet - commercialization of that infrastructure begins
+Senator AL Gore becomes interested in networks for research
+1990 ARPANet shuts down
+1991 Gore proposes, and sees it through, The High Performance COmputing Act. This is the ‘information superhighway’ financing bill, which amongst other things funds the team that builds the first Webrowser (Mosaic, 1993; evolves into Netscape)
+1991 web comes into existence; 1993 explodes into popular imagination
+
+First ‘viruses’ and ‘worms’ written mostly as experiments
+Creeper - designed by Bob Thomas at BBN; it would copy itself onto connected computers. The first worm. 1971. ‘I’M THE CREEPER CATCH ME IF YOU CAN’
+Reaper - designed by Ray Tomlison, to seek out and eliminate Creeper. 1972
+
+ANIMAL - the first Trojan - 1975, by John Walker
+ANIMAL was a 20-question style game, ‘What animal am I thinking of?’
+Secret program included in it called PERVADE; when game ran, PERVADE would examine the system for directories available to the user, and then copy ANIMAL to those directories 
+
+Once the genie is out of the bottle, lots of virus/worms/trojans emerge
+Often the motivation is curiosity - who wouldn’t want to create artificial life, amirite?
+But not always
+
+BRAIN BOOT SECTOR VIRUS - first IBM PC virus -
+Would essentially crash the machine during boot up
+
+The story so far
+The 1980s sees a growing awareness of ‘connected’ computing
+Turning up in culture (eg WarGames; Terminator)
+Commercialization of the government created infrastructure 
+Internetworking of private networks into that infrastructure
+Common carriage of traffic (what is later called net neutrality) a feature
+AI Gore secures funding for another round of development, meant to expand access and foster more research
+
+In computerized hypertext
+Some act of selection enables you to pass to another level r another related concept
+A formalization and action based on a relationship
+The relationship itself has some capacity to act
+
+A pattern language like:
+How do we structure information and build relationships between pieces of data that help us see them across contexts, and clarify understanding?
+How do we build systems that allow people to collaborate on shared documents without losing authorship? How do we credit and compensate authors based on their contributions?
+How do we bring ideas and data from a variety of sources into conversation with our own, while leaving a clear trail back to the origin?
+
+Nelson: “HTML is precisely what we were trying to PREVENT - ever-braking links, links going outward only, quotes you can’t follow to their origins, no version management, no rights management.”
+
+“What we’re now seeing is the ad-hoc, decentralized manifestation of Xanadu in bits and pieces.
+People are building Xanadu without knowing what Xanadu is.
+Which is the essence of a good pattern language; true patterns evolve naturally within systems, and are found rather than crafted.” - Maggie Appleton
+
+Microcosm
+1986 BBC produces a new Domesday Brook - on laserdisc
+Interactive explorations, with links & a pointer; demo from 1991
+Inspiration for Wendy Hall, U Southampton
+
+Intermedia - connected five different applications into a ‘scholar’s workstation Nicole Yankelovich, Nancy Garrett, Karen Caitlin; Apple nicks elements of the design
+Sun Microsystems - Link Service, developed by Amy Pearl
+Symbolics - Symbolics Document Examiner by Janet Walker
+
+Xerox - Cathy Marshall, works on NoteCards, subsequently develops Aquanet and Viki - 1984
+A very similar product becomes bundled with Apple in 1987, ‘HyperCard’, 1987
+Ars Technica on HyperCard
+
+Meanwhile, over in Europe
+“HyperText is a way to link and access information of various kinds as a web of nodes in which the user can browse at will. It provides a single user-interface to large classes of information (reports, notes, data-bases, computer documentation and on-line help_. We propose a simple scheme incorporating servers already available at CERN… A program which provides access to the hypertext world we call a browser… “Tim Berners-Lee , R. Cailliau. 12 November 1990, CERN 
+
+Hypermedia: constructive; to navigate it was to also forge the links that made things meaningful Web: passive; to navigate it is to go where the paths have been made for you.
+
+March 27: Because it was the 90s
+
+Excavating GeoCities
+The ruins of GeoCities exist as a torrent from internet archive
+Sites can be pulled from it; because of backwards compatibility, a lot of these sites can still work (for a given value of ‘work’)
+The work of Ian Milligan
+
+“GeoCitiessought to be a new kind of web place for its new arrivals: a place where you learned how to make a first website, with the possibility of friendly neighbors and helpful advice, and might even win a few blinking awards to help bolster your confidence. The web might have seemed infinitely big, but that did not mean you couldn't have a home there.” - Milligan
+
+Homesteading as a metaphor embraces both of those tensions - homesteading creates a community where there was none before *if we accept the doctrine of terra nullius*; homesteading is a digital colonialism, and the eventual outcome of that is the strip mine, the clear cut
+
+Community leaders emerge
+“If that's the only reason you want to be a leader, think again. It’s hard work. Many of our leaders spend several hours each day answering questions and helping their neighbors set up their sites.”
+
+“No provider or user of an interactive computer service shall be treated as the publisher or speaker of any information provided by another information content provider,” (47 U.S.C. & 230(c)(1)). 
+So section 230 applies regardless of how much content moderation gets done,but lots of people treat it as if it does
+Topics On Deck As We Approach The Finish:
+The Dot-Com Boom/Bust
+
+
+The Rise of Google
+
+
+From the ashes: Web 2.0
+
+
+The Enshittification of Everything
+
+
+A preview of the future. On the following slide there is a short essay. It was written by an AI clone. These technologies have been called 'stochastic parrots'; they are essentially statistical what-word-comes-next models.
+We are shortly going to be in a world where texts written by such techs pollute the infosphere.
+
+
+On the next slide, enable Hypothes.is, and set your group to 'public'. Highlight the parts that are wrong, partially right, misleading, or true, with an annotation explaining what the problem is. Support your assertions/annotations with links to reliable data.
+
+
+Respond to any annotations where you think there is room for dispute.
+
+
+I will expect to see a note about this exercise (and last week's network analysis) in Memex 3.
+
+
+Section 230 of the Communications Decency Act (CDA) is an exception to certain provisions in the law, such as those prohibiting minors from accessing obscene material online or restricting access by adults to sexually explicit content. The CDA was passed into law on February 15th, 2006 and Section 230 became effective that same year. This provision of the Act has been highly controversial due in part to its vagueness; it is not clear what exactly constitutes “obscene” or “sexually explicit material.”
+The Supreme Court ruled on a case involving this section of the CDA, Ashcroft v. ACLU, that Section 230 was constitutional and did not violate First Amendment rights as it only restricted access to certain materials deemed obscene by Congress or state legislatures; it didn’t ban any particular type of speech outright.
+
+
+The CDA has been amended several times since its inception, most recently with the passage of The Protect Act (PROTECT) which further clarified what material is considered “obscene” and made sure that Section 230 was not being abused to access such materials by minors. This law also provided penalties for those who would try to circumvent these restrictions, making it clear that the government takes this provision of the CDA very seriously.
+
+
+Section 230 has been a highly contested part of the Communications Decency Act since its inception and remains so today as people continue to debate what material is considered “obscene” or if minors should have access to such materials at all, let alone via circumvention tools like virtual private networks.
+
+March 29: Dotcom Crash
+
+South Seas Bubble
+British gov’t needed refinancing of its debt after various wars
+South seas company has a promised monopoly on trade (slaving) to South America
+What it actually has is an arrangement to buy gov’t debt
+
+Get rich quick
+Shares rise from 124 pounds to over 1000
+In 1720s value
+Price collapses by december 1720, ruining several fortunes
+Scandal bring first modern prime minister to power, Robert Walpole
+Beginning of regulation
+
+Lasting impact of the dot com boom
+The internetification of logistics
+Emergence of ‘content’
+Development of advertising
 
 
 
