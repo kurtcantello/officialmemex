@@ -2,6 +2,29 @@ Welcome to my memex
 
 this memex is split up into 3 sections: source notes; lecture notes; atomic notes
 
+FINAL JOURNEY
+
+Title: **two centuries after the foundation of electrophysiology, Trends in Neurosciences,**
+
+Title: "needle lodestone telegraphy"
+
+Title:  "A symbolic analysis of relay and switching circuits," in Electrical Engineering
+
+Title: **Customer Acceptance of Online Banking in Developing Economies**
+
+Title: **The role of big data analytics in industrial Internet of Things**
+
+**In the grand scheme of things, the Internet as we know it today, evolved from the earliest form of electrical science. This form of electrical science is Electrophysiology. Luigi Galvani and Marco Piccolino used their creations (Leyden jars, Franklin’s magic squares) to send shocks through frogs. Galvani would stab metallic hooks through the frog, and expose it to electricity. This laid the foundation for electrical research. Without this research, the first internet would have never been created. The first internet in this case is the “victorian internet”. This internet was not what we know the internet to be today, instead, it was the first ever telegraph. The needle lodestone telegraph, established in 1835 and 1914, operated by a series of codes relates across interconnected networks. This development removed the travel between communication. When you once had to travel by horseback to deliver a note, you could now send a message across the same distance using the telegraph. Governments were the first to support the creation of the new communication system, which was the beginning of government control over information. If this basic level of technology was never created, then relay and switching circuits could not exist. These circuits are the base of how literally all modern technology operates. A tv can not be turned on if the plug is not plugged in, a laptop can not connect to the internet if the wifi router is not plugged in, etc. Already, we can see how sending electric shocks through a frog, was the beginning of literally all modern technology. Eventually, as we know, the internet made massive advancements in a short period of time. Unsurprisingly, these advancements were quick to gain acceptance as they offered convenience. For example, as outlined by Tahir Qureshi, when online banking began in the 1990s it did not take long for people to see its utility. Beginning with businesses, eventually, everyone began to do their banking from the comfort of their home. Once the internet gained widespread acceptance, it did not take long for big industries to take advantage. With the internet, big data collection evolved alongside it. This data allows industries to target ads to incredibly specific groups of people. But there are also issues that come with big data collection. How much information should these industries really have about users of the internet?**
+
+
+
+
+
+
+
+
+
+
 SOURCE NOTES
 
 Title: **two centuries after the foundation of electrophysiology, Trends in Neurosciences,**
